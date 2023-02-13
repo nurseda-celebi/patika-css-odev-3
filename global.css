@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-size: 14px;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+li a :hover{
+  text-decoration: underline;
+}
+.Float-nav {
+  float: right;
+}
+#First-Button {
+  border-radius: 9px;
+  margin: 5px 10px;
+  background-color: #4485f6;
+  width: 80px;
+  height: 30px;
+  border-width: 1px;
+  font-size: 15px;
+}
+.Button-Link{
+  padding: 0px;
+  color: white;
+}
+.First-img {
+  margin: 150px 600px 30px 600px;
+}
+.container {
+  border-radius: 1px;      
+}
+.input{
+    width: 450px;
+    height: 35px;
+    position: relative;
+    left: 500px;
+    border-radius: 40px;
+    border: 2px solid #e2e1e1;
+}
+.input:hover{
+  border: 2px solid #5f6368;
+}
+.First-icon{
+    position: absolute;
+    left: 520px;
+    top: 341px;
+    width: 15px;
+    height: 15px;
+}
+.Second-icon{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 335px;
+    left: 970px;
+    
+}
+.Button{
+    border-radius: 1px;
+    margin: 4px 600px;
+    position: relative;
+}
+.Second-Button{
+    height: 36px;
+    font-size: 14px;
+    background-color:  #f2f2f2;
+    color: #5f6368;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    border-radius: 2px;
+    margin: 6px;
+    margin-top: 25px;
+}
+.Second-Button:hover{
+  color:#f2f2f2;
+  background-color: #5f6368;
+  border: 1px solid #f2f2f2;
+}
+footer{
+    border: 1px solid #5f6368;
+    width: 100%;
+    background-color:  #f2f2f2;
+    color: #5f6368;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.Footer-a{
+    float: right;
+}
+
+
